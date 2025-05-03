@@ -1,0 +1,139 @@
+.root {
+    -fx-background-color: #424bb289;  
+}
+#labeldebienvenue {
+    -fx-font-size: 50px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #32327e; /* Couleur du texte */
+    -fx-padding: 10px; /* Espacement autour du texte */
+    -fx-background-color: #443b874a; /* Couleur de fond */
+    -fx-border-color: white; /* Couleur de la bordure */
+    -fx-border-width: 10px; /* Largeur de la bordure */   
+}
+
+  .button {
+    -fx-background-color: #4CAF50; /* Couleur de fond */
+    -fx-text-fill: white; /* Couleur du texte */
+     -fx-font-size: 14px; /* Taille de la police */
+    -fx-font-weight: bold; /* Poids de la police */
+     -fx-padding: 10px 20px; /* Espacement interne */
+    -fx-border-radius: 5px; /* Rayon de la bordure arrondie */
+    -fx-background-radius: 5px; /* Rayon du fond arrondi */
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 ); 
+} 
+ .button:hover {
+    -fx-background-color: #45a049; /* Couleur de fond au survol */
+} 
+
+ .button:pressed {
+    -fx-background-color: #397D32; /* Couleur de fond lorsqu'appuyé */
+}
+.hbox {
+    -fx-alignment: center; /* Centre les éléments dans le HBox */
+    -fx-spacing: 20px; /* Espacement entre les éléments du HBox */  
+}
+.vbox{
+	 -fx-padding:20 0 0 100px;
+	 -fx-spacing: 40px;	  
+}
+.logo{
+	-fx-padding : 100px;
+}
+ .gridpane {
+    -fx-padding: 40px;
+    -fx-hgap: 0px;  /*coller le tableau */
+    -fx-vgap: 0px;  
+}
+ .gridpane .label {
+    -fx-background-color: white; /* Fond blanc pour chaque cellule */
+    -fx-border-color: black; /* Couleur des bordures */    
+}
+.case{
+	-fx-min-width: 120px;  
+    -fx-min-height: 40px;
+}
+.grid-pane {
+    -fx-background-color: #f5f5f5;  
+    -fx-padding: 20; /* Espacement autour des éléments du GridPane */
+    -fx-hgap: 10; /* Espacement horizontal entre les colonnes */
+    -fx-vgap: 15; /* Espacement vertical entre les lignes */
+    -fx-alignment: center; /* Centrage des éléments */
+     -fx-max-width: 600px;  
+    -fx-max-height: 450px;
+}
+ 
+.toggle-button {
+    /* Styles pour les boutons de bascule */
+    -fx-background-color: #4CAF50;
+    -fx-text-fill: white;
+    -fx-min-width: 100px;
+    -fx-min-height: 25px;
+    -fx-max-width: 150px;
+    -fx-max-height: 40px;
+    -fx-padding: 5px;
+    -fx-background-radius: 5px;
+}
+
+.nav-bar {
+    /* Styles pour la barre de navigation */
+    -fx-background-color: #424bb289;
+    -fx-padding: 10;
+}
+
+.search-field {
+    /* Styles pour le champ de recherche */
+    -fx-prompt-text-fill: gray;
+    -fx-min-width: 200px;
+    -fx-max-width: 300px;
+    -fx-min-height: 25px;
+    -fx-max-height: 30px;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 5px;
+}
+
+.table-view {
+    /* Styles pour la table */
+    -fx-table-cell-border-color: #ccc;
+}
+
+.center-box {
+    /* Styles pour la boîte centrale */
+    -fx-padding: 30px;
+    -fx-spacing: 10px;
+}
+
+.form-elements {
+    /* Styles pour les éléments de formulaire */
+    -fx-margin: 30px;
+}
+
+/* Styles pour le TableView */
+.table-view {
+    -fx-pref-width: 500px;
+    -fx-pref-height: 200px;
+    -fx-max-width: 800px;
+    -fx-max-height: 200px;
+}
+
+/* Styles pour les cellules du TableView */
+.table-cell {
+    -fx-alignment: center;
+    -fx-padding: 5px;
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+}
+
+/* Styles pour les en-têtes de colonnes du TableView */
+.table-column {
+    -fx-pref-width: 100px;
+    -fx-alignment: center;
+    -fx-font-weight: bold;
+}
+
+ 
+
+
+ 
